@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+  <link rel="shortcut icon" type="image/png" href="image/space.png">
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <div class="score-board">
+    <h3>Match the cards!</h3>
+    <div class="box2">
+      <h3>Score: <span id="scoreShow">100</span></h3>
+      <br>
+      <h3 id="chooseShow">correct card?</h3>
+      <br>
+      <h3>Bad : <span id="foutShow">0</span></h3>
+      <h3>Good : <span id="goedShow">0</span></h3>
+      <h3>Total : <span id="totalShow">0</span></h3>
+      <div class="Gone" id="Gone">
+        <h1>You win!</h1>
+        <br>
+        <br>
+        <h4>Thank you for playing this game.</h4>
+        <br><br><br><br><br><br>
+        <h4>Press the button to start again.</h4>
+        <br>
+        <input class="button" type="button" value="Again!" onClick="document.location.reload(true)">
+      </div>
+    </div>
+  </div>
+  <section class="memory-game">
+    <div class="memory-card" data-framework="Mario">
+      <img class="front-face" src="image/mario.png" alt="Mario" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+
+    <div class="memory-card" data-framework="Mario">
+      <img class="front-face" src="image/mario2.png" alt="Mario" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+
+    <div class="memory-card" data-framework="Pokémon">
+      <img class="front-face" src="image/ash.png" alt="Pokémon" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+    <div class="memory-card" data-framework="Pokémon">
+      <img class="front-face" src="image/ash2.png" alt="Pokémon" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+
+    <div class="memory-card" data-framework="SpaceInvaders">
+      <img class="front-face" src="image/space.png" alt="SpaceInvaders" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+    <div class="memory-card" data-framework="SpaceInvaders">
+      <img class="front-face" src="image/space2.png" alt="SpaceInvaders" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+
+    <div class="memory-card" data-framework="Pacman">
+      <img class="front-face" src="image/pacman.png" alt="Pacman" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+    <div class="memory-card" data-framework="Pacman">
+      <img class="front-face" src="image/pacman2.png" alt="Pacman" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+
+    <div class="memory-card" data-framework="MortalKombat">
+      <img class="front-face" src="image/mortal.png" alt="MortalKombat" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+    <div class="memory-card" data-framework="MortalKombat">
+      <img class="front-face" src="image/mortal2.png" alt="MortalKombat" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+
+    <div class="memory-card" data-framework="Undertale">
+      <img class="front-face" src="image/under.png" alt="Undertale" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+    <div class="memory-card" data-framework="Undertale">
+      <img class="front-face" src="image/under2.png" alt="Undertale" />
+      <img class="back-face" src="https://image.flaticon.com/icons/svg/849/849424.svg" alt="BackCard" />
+    </div>
+  </section>
+
+  <script src="js.js"></script>
+</body>
+
+</html>
